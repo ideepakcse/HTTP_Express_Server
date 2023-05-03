@@ -29,9 +29,7 @@ server.post('/home', (request, response) => {
     });
     
 });
-server.get('/homepage',(request,response)=>{
-    response.send('HTTP_Module_Server/index.html');
-})
+
 server.listen(PORT, () => {
     console.log(`Example app listening on port ${PORT}`)
 });
